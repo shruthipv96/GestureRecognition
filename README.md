@@ -53,10 +53,10 @@ Each video is a sequence of 30 frames (or images).
 |:-----|:------------|
 | Python notebook | It contains the complete detailed code along with necessary output to solve the problem. |
 | README.md | This file briefs about the project. |
-| Project_data.zip | This file contains the dataset and the explanation of the dataset is briefed above |
+| Project_data.zip | This file contains the dataset and the explanation of the dataset is briefed above. |
 | Write-up pdf | This file contains a brief about the various experiments conducted. |
 | model-00015-0.00159-1.00000-0.34987-0.88000.h5 | The best model obtained from the experiments. |
-| AdditionalModels| This folder contains fewer more good models obtained during the experiments. |
+| AdditionalModels| This folder contains few more good models obtained during the experiments. |
 
 ## Conclusion
 From the **38** different models built on different architectures, below are the good models from each variant,
