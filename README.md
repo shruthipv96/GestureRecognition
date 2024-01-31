@@ -35,11 +35,14 @@ Each video is a sequence of 30 frames (or images).
 3. **Write up**: This should contain the detailed procedure followed in choosing the final model. The write up should start with the reason for choosing the base model, then highlight the reasons and metrics taken into consideration to modify and experiment to arrive at the final model.
 
 **Dataset:**
-- The dataset is available in the Project_data.zip file
+- The dataset is available [here](https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL)
 - The training data consists of a few hundred videos categorised into one of the five classes. Each video (typically 2-3 seconds long) is divided into a sequence of 30 frames(images). These videos have been recorded by various people performing one of the five gestures in front of a webcam - similar to what the smart TV will use.
 - The zip file contains a 'train' and a 'val' folder with two CSV files for the two folders. These folders are in turn divided into subfolders where each subfolder represents a video of a particular gesture. Each subfolder, i.e. a video, contains 30 frames (or images). Note that all images in a particular video subfolder have the same dimensions but different videos may have different dimensions. Specifically, videos have two types of dimensions - either 360x360 or 120x160 (depending on the webcam used to record the videos).
 - Each row of the CSV file represents one video and contains three main pieces of information - the name of the subfolder containing the 30 images of the video, the name of the gesture and the numeric label (between 0-4) of the video.
-  
+
+**Installation:**
+- Run `pip install -r requirements.txt` to install all the dependencies.
+
 ## Methodology
 - Generator
 - Model
@@ -53,10 +56,10 @@ Each video is a sequence of 30 frames (or images).
 |:-----|:------------|
 | Python notebook | It contains the complete detailed code along with necessary output to solve the problem. |
 | README.md | This file briefs about the project. |
-| Project_data.zip | This file contains the dataset and the explanation of the dataset is briefed above. |
 | Write-up pdf | This file contains a brief about the various experiments conducted. |
 | model-00015-0.00159-1.00000-0.34987-0.88000.h5 | The best model obtained from the experiments. |
-| AdditionalModels| This folder contains few more good models obtained during the experiments. |
+| AdditionalModels | This folder contains few more good models obtained during the experiments. |
+| requirements.txt | This file contains the library and the versions used |
 
 ## Conclusion
 From the **38** different models built on different architectures, below are the good models from each variant,
